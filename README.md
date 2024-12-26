@@ -1,16 +1,83 @@
-# notes_app_2
+# Notes App 📓✨
 
-A new Flutter project.
+This project is a note-taking app built with **Flutter**, leveraging **Hive** for local storage and **BLoC** for state management. The app allows users to create, edit, search, and delete notes with smooth animations and user-friendly interfaces. 💡
 
-## Getting Started
+## Features ⚡️
 
-This project is a starting point for a Flutter application.
+- **Create, Edit, and Delete Notes** 📝
+- **Smooth Animations** 🎬
+- **Search Functionality** 🔍
+- **Custom Dialogs and Transitions** 🏙️
+- **Modal Progress HUD** ⏳
+- **Local Storage** **with Hive** 💾
+- **State Management** **using BLoC** 💼
 
-A few resources to get you started if this is your first Flutter project:
+## Animations Used 🎬
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The app utilizes various types of animations to enhance the user experience. Below are the main animations used:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### **Animated List 📝**
+   - **Description**: The list of notes in the app is animated when items are added or removed. This provides a smooth transition and gives users a better visual experience when interacting with the list. 🎢
+   - **Implementation**: 
+     The `AnimatedList` widget is used to animate the insertion and removal of notes. When a new note is added, it smoothly slides into the list. When a note is deleted, it smoothly slides out.
+     
+These animations enhance the user experience by making the app feel **responsive** and **fluid**, and they contribute to the overall **polished look** of the application. ✨
+
+## Search Functionality 🔍
+
+The app features a **custom search delegate** that allows users to search for notes based on their title, content, or date. The search is implemented using Flutter's `SearchDelegate` class and filters the notes as the user types.
+
+### CustomSearchDelegate 🧐
+
+The `CustomSearchDelegate` is responsible for managing the search queries and displaying the search results. It listens to user input and filters the notes in real-time.
+
+## Modal Progress HUD ⏳
+
+**Description:**  
+A loading spinner is displayed when a note is being added, using a `ModalProgressHUD` widget. This provides feedback to the user during long-running operations. 🔄
+
+**Implementation:**  
+The app uses the `modal_progress_hud_nsn` package to show a loading spinner when notes are being saved.
+
+---
+
+## 📸 Screenshots
+<p align="center">
+  <img src="screenshot\home_view.png" width="45%" />
+  <img src="screenshot\home_view_with_notes.png" width="45%" />
+</p>
+<p align="center">
+  <img src="screenshot\Screenshot_1735176961.png" width="45%" />
+  <img src="screenshot\search_not found_item.png" width="45%" />
+</p>
+
+---
+
+## Installation 🚀
+
+### Prerequisites:
+- Flutter SDK 3.0 or higher
+- Dart SDK 2.18 or higher
+- Hive (for local storage)
+- Flutter Bloc (for state management)
+
+### Steps to Run:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/notes-app.git
+
+2. **Install Flutter Dependencies:**
+
+   ```bash
+   flutter pub get
+
+3. **Run the Projec For Android Emulator:**
+
+   ```bash
+   flutter run
+
+---
+
+Feel free to explore, contribute, and use this project to enhance your Flutter skills! 😊
