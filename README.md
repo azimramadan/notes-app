@@ -66,7 +66,7 @@ The app uses the `modal_progress_hud_nsn` package to show a loading spinner when
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/notes-app.git
+   git clone https://github.com/azimramadan/notes-app.git
 
 2. **Install Flutter Dependencies:**
 
