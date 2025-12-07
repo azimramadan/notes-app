@@ -51,6 +51,10 @@ The app uses the `modal_progress_hud_nsn` package to show a loading spinner when
   <img src="screenshot\search_not found_item.png" width="45%" />
 </p>
 
+
+## 🎬 Demo
+
+> 🔗 check the demo post on [LinkedIn](https://www.linkedin.com/posts/azimramadan_flutter-mobiledevelopment-dart-activity-7278041724545814528-JlVv?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEnUMDsBHOQmpv6_GP-fBGNNSeeDyOxGA6A)
 ---
 
 ## Installation 🚀
